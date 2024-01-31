@@ -3,7 +3,7 @@ The comma after example: and new "" put the example text in the input bar. */
 
 const userInput = prompt(
   "Enter your froyo flavors as a list! Separate your items with a comma & no spaces. Example: ",
-  "vanilla,strawberry,coffee"
+  "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
 );
 
 /* Takes user's input from the promt and splits into an array of strings. 
