@@ -17,11 +17,11 @@ let flavorsCount = {};
 function getCount(flavors) {
   // Loop to count flavors
   for (let i = 0; i < flavors.length; i++) {
-    let flavor = flavors[i];
-    if (flavorsCount[flavor] === undefined) {
-      flavorsCount[flavor] = 1;
+    let holdFlavor = flavors[i];
+    if (flavorsCount[holdFlavor] === undefined) {
+      flavorsCount[holdFlavor] = 1;
     } else {
-      flavorsCount[flavor]++;
+      flavorsCount[holdFlavor]++;
     }
   }
   console.table(flavorsCount);
